@@ -9,7 +9,7 @@ const Products = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 1500,
     slidesToShow: 5,
     slidesToScroll: 2,

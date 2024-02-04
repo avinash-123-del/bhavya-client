@@ -247,9 +247,9 @@ color: black;
       border: 10px solid rgb(174, 243, 71);
   }
 
-  .client-logo-section{
-    margin: 20px 0px;
-    background-color: rgb(171, 219, 92);
+  .client-logo-section {
+      margin: 20px 0px;
+      background-color: rgb(171, 219, 92);
   }
 
   @media screen {
@@ -266,6 +266,12 @@ color: black;
 
   .slider-c {
       color: #90b448
+  }
+  .slider-c .slick-list {
+    margin-left: -35px;
+  }
+  .testimonials .slick-list {
+    margin-left: -45px;
   }
 
   .active {
@@ -363,25 +369,25 @@ color: black;
       max-height: 400px;
   }
 
-  .client-logo-wrap{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  .client-logo-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
   }
 
 
-  .client-logo-item{
-    display: flex !important;
-    justify-content: center !important;
-    width: fit-content !important;
+  .client-logo-item {
+      display: flex !important;
+      justify-content: center !important;
+      width: fit-content !important;
   }
 
-  .client-logo-item .client-logo-img{
-    max-height: 70px;
-    max-width: 150px !important;  
-    border-radius: 5px;
-    margin: 10px 0px;
- 
+  .client-logo-item .client-logo-img {
+      max-height: 70px;
+      max-width: 150px !important;
+      border-radius: 5px;
+      margin: 10px 0px;
+
   }
 
   .footer-p1,
@@ -409,6 +415,7 @@ color: black;
       flex-direction: column;
   }
 
+
   @media screen and (min-width : 200px) and (max-width : 600px) {
 
       .services {
@@ -430,13 +437,13 @@ color: black;
           margin: 20px 0px;
       }
 
-      .services-2 img{
-        max-width: 90%;
+      .services-2 img {
+          max-width: 90%;
       }
 
-       .home-body-product{
-        width: 360px !important;
-        overflow-x: hidden !important;
+      .home-body-product , .header-main {
+          width: 357px !important;
+          overflow-x: hidden !important;
       }
 
       .gallery-style-two img {
@@ -476,7 +483,7 @@ color: black;
 
       .home-body {
           width: 357px !important;
-          overflow-x: hidden;
+          overflow-x: hidden !important;
       }
 
       .testimonial {
@@ -600,21 +607,42 @@ color: black;
           display: none;
       }
 
-      .client-logo-wrap{
-        display: grid;
-    grid-template-columns: auto auto auto;
+      .client-logo-wrap {
+          display: grid;
+          grid-template-columns: auto auto auto;
       }
 
-      .client-logo-wrap .client-logo-img{
-    
-      max-width: 90px !important;
+      .client-logo-wrap .client-logo-img {
+
+          max-width: 90px !important;
       }
 
-      .slick-next:before , .slick-prev:before {
-        content: '' !important;
-    }
+      .slick-next:before,
+      .slick-prev:before {
+          content: '' !important;
+      }
 
-    .product-bg{
-        padding: 5px 0px;
-    }
+      .product-bg {
+          padding: 5px 0px;
+      }
+
+      .contact-form-area{
+        padding-top: 10px !important;
+      }
+
+      .contact-info-item {
+          display: flex !important;
+          padding: 10px;
+      }
+      .contact-info-item img {
+      max-width: 70%;
+      }
+      .contact-info-item .content h4 {
+          font-size: 18px;
+      }
+      .contact-info-item .content span {
+          font-size: 14px;
+      }
+
+
   }
